@@ -1,71 +1,36 @@
-# heritage-one-stop
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
-## 📜 Problem Statement
+First, run the development server:
 
-Inadequate engagement and preservation of heritage sites pose significant challenges, including:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- **Limited Access to Heritage Sites**: People lack immersive experiences to explore and understand different and extinct heritage sites.
-- **Insufficient Information on Conservation Authorities**: Difficulty in finding and connecting with nearby authorities involved in heritage and biodiversity conservation efforts.
-- **Inefficient Complaint Management**: Lack of a streamlined system for filing, tracking, and managing complaints regarding the maintenance of heritage sites.
-- **Poor Interaction and Knowledge Sharing**: Absence of interactive tools for users to learn about and engage with information on various heritage sites.
-- **Inadequate Tracking of Conservation Activities**: Users do not have a personalized platform to track their involvement in heritage conservation activities.
-- **Geographical Barriers to Heritage Exploration**: Inability to virtually experience heritage sites from different locations, hindering cultural exchange and awareness.
-- **Lack of Awareness about Conservation Events**: Users miss out on important events and workshops focused on heritage conservation due to ineffective dissemination of information.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🌟 Solution
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Our platform addresses these challenges by providing the following features:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### 🎥 Virtual Reality Rooms
-- Showcases different and well-known heritage sites using virtual reality technology.
+## Learn More
 
-### 📍 Nearby Authorities Listing
-- Lists nearby authorities that promote heritage and biodiversity conservation.
-- Utilizes PostgreSQL with PostGIS extension and MongoDB for database management.
-- Implemented with Node.js and Express.js for the backend.
+To learn more about Next.js, take a look at the following resources:
 
-### 📝 Complaint Filing and Tracking System
-- Allows users to file and track complaints regarding the maintenance of heritage sites.
-- Concerned authorities can view and update the status of received complaints.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### 💬 Chatbot Interaction
-- Provides an AI-powered chatbot for users to discuss various heritage sites using the OpenAI API.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### 📊 User Dashboard
-- Enables users to track their heritage conservation activities.
-- Built with React.js and MongoDB.
+## Deploy on Vercel
 
-### 🌐 Augmented Reality (AR) Heritage Viewing
-- Allows users to view heritage sites in augmented reality, regardless of their current location.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### 📅 Event and Workshop Updates
-- Keeps users informed about events and workshops related to heritage conservation.
-- Utilizes Next.js and Tailwind CSS for implementation.
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React.js**: For building user interfaces and the user dashboard.
-- **Next.js**: For server-side rendering and building the frontend.
-- **Tailwind CSS**: For styling frontend components.
-
-### Backend
-- **Node.js**: For building the backend server.
-- **Express.js**: For building RESTful APIs and handling server-side logic.
-
-### Database
-- **PostgreSQL with PostGIS extension**: For storing spatial and geographical data.
-- **MongoDB**: For storing non-relational data such as user profiles, complaints, event details, and conservation activities.
-
-### API
-- **RESTful APIs**: Built with Node.js and Express.js to handle requests from the frontend and manage data transactions.
-- **OpenAI API**: For implementing the AI chatbot.
-
-### Additional Technologies
-- **Virtual Reality (VR) and Augmented Reality (AR)**: For creating immersive experiences to showcase and explore heritage sites.
-
-### Future Considerations
-- **Blockchain**: For secure and transparent tracking of donations and conservation efforts, ensuring transparency and trust.
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
