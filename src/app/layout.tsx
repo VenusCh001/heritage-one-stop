@@ -3,7 +3,6 @@ import "../styles/global.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "../components/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
-import AI from "../components/AI";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -36,7 +35,6 @@ export default function RootLayout({
               disableTransitionOnChange
               >
               {children}
-              <AI />
             </ThemeProvider>  
           </body>
       </html>
