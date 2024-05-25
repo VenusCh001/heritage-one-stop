@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { Button } from "../ui/button";
+import { ArrowRightSquare } from "lucide-react";
 
 export const HoverEffect = ({
   items,
@@ -53,7 +54,7 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
-            <Button className="flex-center bg-white text-black">Enter</Button>
+            <Button className="flex-center bg-white text-black flex gap-3">Feature <ArrowRightSquare/> </Button>
           </Card>
         </Link>
       ))}
