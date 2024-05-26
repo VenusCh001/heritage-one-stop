@@ -2,34 +2,45 @@ import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl h-[90%] mx-auto px-8">
-      <HoverEffect items={projects} />
-    </div>
+    <>
+      <div className="flex flex-center items-center mt-[5%] text-5xl text-black font-bold">
+        Features We Offer
+      </div>
+      <div className="max-w-6xl h-[80%] mx-auto px-8">
+        <HoverEffect items={projects} />
+      </div>
+    </>
   );
 }
 export const projects = [
   {
-    title: "File Complaint",
+    title: "Complaint Filing ",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "Allows users to file and track complaints regarding the maintenance of heritage sites.",
     link: "./complaint",
   },
   {
     title: "Event & Workshop",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Keeps users informed about events and workshops related to heritage conservation.",
     link: "./workshop",
   },
   {
-    title: "Virtual Bioheritage rooms",
+    title: "AR Heritage Viewing",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "Allows users to view heritage sites in augmented reality, regardless of their current location.",
     link: "./room",
   },
   {
-    title: "Chatbot",
+    title: "Chatbot Interaction",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "Provides an AI-powered chatbot for users to discuss various heritage sites using the Gemini API.",
     link: "./chatbot",
+  },
+  {
+    title: "Garabage Checker",
+    description:
+      "Machine Learning Model For Detection and labelling of garbage present near heritage sites.",
+    link: "./predict",
   },
 ];

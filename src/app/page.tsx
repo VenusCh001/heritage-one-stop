@@ -12,7 +12,7 @@ export const dynamic = "force-dynamic";
 export default async function HomePage() {
   return (
     <>
-        <Header />
+        {/* <Header /> */}
         <ImagesSliderDemo />
         <CardHoverEffectDemo />
         <AccordionDemo />

@@ -3,6 +3,7 @@ import "../styles/global.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "../components/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
+import Header from "@/components/Header/Header";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -11,8 +12,8 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: "BioHeritage",
-    template: "%s | BioHeritage",
+    default: "Heritage One Stop",
+    template: "%s | Heritage One Stop",
   },
   description: "",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
@@ -27,7 +28,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`font-sans ${inter.variable}`}>
-
+          <Header />
           <ThemeProvider
               attribute="class"
               defaultTheme="system"

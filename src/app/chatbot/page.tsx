@@ -8,7 +8,6 @@ import {
   MicIcon,
   UserSquare,
 } from "lucide-react";
-import Header from "@/components/Header/Header";
 
 type ChatHistoryType = { userMessage: string; llmMessage: string };
 
@@ -27,11 +26,10 @@ export default function AI() {
 
   return (
     <>
-      <Header />
       <div className="container relative h-[130vh] flex justify-center items-center overflow-hidden flex-col gap-2">
         <div className="h-[75%] w-[80%] bg-[#464545] rounded-lg text-black text-2xl pt-[rem] font-sans flex justify-center bottom-[18%] right-[3%]">
           <div className="flex flex-col gap-2 font-sans w-[90%]">
-            <div className="ml-1.5 h-[90%] w-[100%] rounded-md text-white text-2xl">
+            <div className="ml-1.5 h-[90%] w-[100%] rounded-md text-white text-sm">
               {chatHistory.map((message, index) => (
                 <div key={index}>
                   <div className="mb-3 pt-4 flex">
@@ -43,9 +41,9 @@ export default function AI() {
                     </div>
                   <div className="text-white float-right flex mt-[9%] gap-3">
                     <div className="bg-[#b2468cdb] h-auto w-[35vw] rounded-md p-4">
-                      {message.llmMessage.slice(0, 100)}
+                      {message.llmMessage}
                     </div>
-                    <span className="text-blue-500">
+                    <span className="text-blue-500 text-md">
                       <Bot className="h-[8vh] w-[8vh]" />
                     </span>
                   </div>

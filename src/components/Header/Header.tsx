@@ -40,7 +40,7 @@ const Header = () => {
           </SignedOut>
           <SignedIn>
             <Link href="/dashboard">
-              <Button className="flex-center bg-[#73c737] text-black">Dashboard</Button>
+              <Button className="flex-center bg-black text-white">Dashboard</Button>
             </Link>
             <UserButton />
           </SignedIn>
