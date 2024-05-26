@@ -26,7 +26,7 @@ export const projects = [
     link: "./workshop",
   },
   {
-    title: "AR Heritage Viewing",
+    title: "VR Heritage Viewing",
     description:
       "Allows users to view heritage sites in augmented reality, regardless of their current location.",
     link: "./room",
@@ -38,9 +38,9 @@ export const projects = [
     link: "./chatbot",
   },
   {
-    title: "Garabage Checker",
+    title: "Listing of authorities",
     description:
-      "Machine Learning Model For Detection and labelling of garbage present near heritage sites.",
+      "Lists nearby authorities that promote heritage , biodiversity conservation and laws.",
     link: "./predict",
   },
 ];
