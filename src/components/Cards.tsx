@@ -38,9 +38,9 @@ export const projects = [
     link: "./chatbot",
   },
   {
-    title: "Listing of authorities",
+    title: "faults and damage detection",
     description:
-      "Lists nearby authorities that promote heritage , biodiversity conservation and laws.",
+      "detects faults, garbage and damage using ml algorithms",
     link: "./predict",
   },
 ];
