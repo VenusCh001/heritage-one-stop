@@ -38,9 +38,9 @@ export const projects = [
     link: "./chatbot",
   },
   {
-    title: "faults and damage detection",
+    title: "UNESCO Heritage Sites",
     description:
-      "detects faults, garbage and damage using ml algorithms",
-    link: "./predict",
+      "This shows the list of heritage sites that are recognized by UNESCO.",
+    link: "https://whc.unesco.org/en/list/",
   },
 ];

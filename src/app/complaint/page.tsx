@@ -8,7 +8,7 @@ const ComplaintPage = () => {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/adminuser/index.html'); // Use replace instead of push
+    router.replace('/adminuser/index.html');
   }, [router]);
 
   return null; // This component does not need to render anything
